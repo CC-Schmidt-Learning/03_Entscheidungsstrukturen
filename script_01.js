@@ -7,7 +7,8 @@ const ageJohn = 30;
 const ageMark = 30;
 
 // Deklaration
-let isJohnOlder, isJohnYounger, isJohnEqual, isJohnUnequal;
+
+let isJohnOlder, isJohnYounger, isJohnEqual;
 
 // Test | Logische Aussage
 isJohnOlder = (ageJohn > ageMark);
@@ -32,17 +33,28 @@ isJohnYounger = (ageJohn < ageMark);
 
 // IF - Else Abfrage //
 
-if(isJohnOlder)
-{
-   console.log("John ist älter ");
-}
-else 
-{
-    console.log("John ist jünger "); 
-};
+//if(isJohnOlder)
+//{
+ //  console.log("John ist älter ");
+//}
+//else 
+//{
+//   console.log("John ist jünger "); 
+//};
 
 /************  Ternäre (ternary) Schreibweise ************/
 // console.log( (isJohnOlder) ? "John is older" : "Mark is older");
 
 // If --> Else --> Elseif //
 
+if(isJohnOlder)
+{
+   console.log("John ist älter ");
+}
+else if (isJohnEqual)
+{
+    console.log("John ist gleichalt ");  
+}
+else {
+    console.log("John ist jünger ");
+}
