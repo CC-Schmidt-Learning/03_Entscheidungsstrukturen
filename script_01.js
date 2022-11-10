@@ -3,7 +3,7 @@
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assignment
-const ageJohn = 25;
+const ageJohn = 30;
 const ageMark = 30;
 
 // Deklaration
@@ -13,14 +13,12 @@ let isJohnOlder, isJohnYounger, isJohnEqual, isJohnUnequal;
 isJohnOlder = (ageJohn > ageMark);
 isJohnEqual = (ageJohn == ageMark);
 isJohnYounger = (ageJohn < ageMark);
-isJohnUnequal = (ageJohn != ageMark);
 
 // Ausgabe
 //console.log("ageJohn: " + ageJohn);
 //console.log("ageMark: " + ageMark);
 //console.log("isJohnOlder: " + isJohnOlder);
 //console.log("isJohnEqual: " + isJohnEqual);
-//console.log("isJohnUnequal: " + isJohnUnequal);
 //console.log("------------------");
 
 // TINA = There is no alternative; 
