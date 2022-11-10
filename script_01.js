@@ -47,14 +47,45 @@ isJohnYounger = (ageJohn < ageMark);
 
 // If --> Else --> Elseif //
 
-if(isJohnOlder)
-{
-   console.log("John ist älter ");
-}
-else if (isJohnEqual)
-{
-    console.log("John ist gleichalt ");  
-}
-else {
-    console.log("John ist jünger ");
+//if(isJohnOlder)
+//{
+  // console.log("John ist älter ");
+//}
+//else if (isJohnEqual)
+//{
+  //  console.log("John ist gleichalt ");  
+//}
+//else {
+    //console.log("John ist jünger ");
+//}
+
+/****Fallunterscheidung / SwitchCase ****/
+
+const firstName = "Jane";
+
+let job;
+job="driver"; // fährt Taxi
+job="diver"; //... taucht im Rhein
+job="artist"; //... malt ein Bild!
+job="pilot"; // ... macht etwas anderes -->default. 
+//job="teacher"; // ... unterrichtet.
+//job="instructor"; //... unterrichtet. 
+
+switch (job) {
+    case "driver":
+        console.log(firstName + " fährt TAXI!");
+        break;
+    case "diver":
+            console.log(firstName + " taucht im Rhein");
+            break;
+    case "artist":
+            console.log(firstName + " malt ein Bild!");
+            break;
+    case "teacher":
+    case "instructor":
+            console.log(firstName + " unterrichtet!");
+
+    default:
+        console.log(firstName + " macht etwas anderes");
+        break;
 }
