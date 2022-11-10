@@ -118,4 +118,87 @@
             </root>
         </mxGraphModel>
     </diagram>
+    <diagram id="hGyYn5BBHc5aTzdAwc_p" name="if-elseif-else">
+        <mxGraphModel dx="798" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <object label="" id="RgKafoVbnIWB7_ILqAD--0">
+                    <mxCell/>
+                </object>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--1" parent="RgKafoVbnIWB7_ILqAD--0"/>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--10" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--2" target="RgKafoVbnIWB7_ILqAD--5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="320" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--17" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=-0.017;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;exitX=0.34;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--3" target="RgKafoVbnIWB7_ILqAD--4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="354" y="533"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--3" value="John ist älter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="320" y="320" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--4" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="390" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--8" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.6;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--5" target="RgKafoVbnIWB7_ILqAD--3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--9" value="Ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="RgKafoVbnIWB7_ILqAD--8">
+                    <mxGeometry x="0.4565" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--13" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--5" target="RgKafoVbnIWB7_ILqAD--12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--5" value="ist John&amp;nbsp;&lt;br&gt;älter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="340" y="150" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--15" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--12" target="RgKafoVbnIWB7_ILqAD--14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--16" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="RgKafoVbnIWB7_ILqAD--15">
+                    <mxGeometry x="0.375" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--24" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;entryX=0.62;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--12" target="RgKafoVbnIWB7_ILqAD--25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="680" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--12" value="ist John gleichalt" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="489" y="150" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--20" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--14" target="RgKafoVbnIWB7_ILqAD--4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="529" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--14" value="John ist gleichalt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="479" y="350" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--27" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;entryX=1.008;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RgKafoVbnIWB7_ILqAD--1" source="RgKafoVbnIWB7_ILqAD--25" target="RgKafoVbnIWB7_ILqAD--4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RgKafoVbnIWB7_ILqAD--25" value="John ist jünger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RgKafoVbnIWB7_ILqAD--1">
+                    <mxGeometry x="620" y="400" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
