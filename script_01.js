@@ -68,8 +68,8 @@ job="driver"; // fährt Taxi
 job="diver"; //... taucht im Rhein
 job="artist"; //... malt ein Bild!
 job="pilot"; // ... macht etwas anderes -->default. 
-//job="teacher"; // ... unterrichtet.
-//job="instructor"; //... unterrichtet. 
+job="teacher"; // ... unterrichtet.
+job="instructor"; //... unterrichtet. 
 
 switch (job) {
     case "driver":
@@ -84,7 +84,7 @@ switch (job) {
     case "teacher":
     case "instructor":
             console.log(firstName + " unterrichtet!");
-
+            break;
     default:
         console.log(firstName + " macht etwas anderes");
         break;
