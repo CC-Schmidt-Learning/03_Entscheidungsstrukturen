@@ -38,7 +38,7 @@ if(isJohnOlder)
 {
    console.log("John ist älter ");
 }
-else (isJohnYounger)
+else 
 {
     console.log("John ist jünger "); 
 };
